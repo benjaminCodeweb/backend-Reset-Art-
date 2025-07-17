@@ -4,7 +4,7 @@ import mysql from 'mysql2/promise';
 
 const app = express();
 
-const PORT = 12209;
+const PORT = 3000;
 
 app.use(cors());
 app.use(express.json());
